@@ -1,7 +1,7 @@
 ### Hi there, I'm Hassan! 👋
 **Full Stack Developer & AI Enthusiast from Egypt 🇪🇬**
 
-I am a 16-year-old developer passionate about combining Web Technologies (React/Laravel) with Artificial Intelligence to solve real-world problems.
+I am a developer passionate about combining Web Technologies (React/Laravel) with Artificial Intelligence to solve real-world problems.
 
 - 🔭 I’m currently working on **AG (Autonomous AI Agent)**
 - 🏆 **Achievements:** NASA Space Apps Finalist, ISEF Governorate Finalist
