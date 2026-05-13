@@ -56,9 +56,3 @@ I'm a 17-year-old developer from 6th of October City, Egypt. I've been freelanci
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
----
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HassanAhmedshm&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HassanAhmedshm&layout=compact&theme=github_dark&hide_border=true" height="150" />
-</div>
