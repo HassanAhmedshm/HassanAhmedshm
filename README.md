@@ -28,7 +28,7 @@ I'm a 17-year-old developer from 6th of October City, Egypt. I've been freelanci
 | [**Optiscan AI**](https://hassanahmedshm.github.io/#/optiscan) | Eye disease detection at ~80% accuracy — ISEF Governorate Finalist | Python · TensorFlow · OpenCV |
 | [**AstroV**](https://hassanahmedshm.github.io/#/astrov) | Asteroid impact simulation — NASA Space Apps 2024 Finalist | Three.js · JavaScript |
 | [**LifeTrack AI**](https://hassanahmedshm.github.io/#/lifetrack) | AI-powered lifestyle coaching mobile app | Flutter · Dart · LLMs |
-| [**Tarqumi LMS**](https://tarqumi.com) | Full learning management system built for a live product | Next.js · Node.js · MongoDB |
+| [**Tarqumi**](https://tarqumi.com) | Company landing page | Next.js · GSAP · ThreeJS |
 
 ---
 
