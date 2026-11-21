@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hassan Ahmed
-### Full Stack Developer · Next.js · TypeScript · Postgres
+### Co-founder & Full Stack Developer · Next.js · TypeScript · Postgres
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/hassan-ahmed-shm)
 [![Live work](https://img.shields.io/badge/Live%20work-4g--phone.com-2ea44f?style=flat-square&logo=vercel&logoColor=white)](https://www.4g-phone.com)
@@ -33,7 +33,7 @@ application code, migrations that refuse bad writes, and test suites that run on
 | Project | What it is | Stack |
 |---|---|---|
 | **[4G Phone Store](https://www.4g-phone.com)** | Production storefront for an Egyptian phone retailer. Server-rendered, SEO-ready catalogue; a customer reaches a pre-filled WhatsApp order in three clicks; the owner can re-price the entire catalogue from an inline-editable list in under a minute. | Next.js · Supabase · Vercel |
-| **Systemy** | Offline-first, multi-tenant shop-management SaaS for small Egyptian shops. Arabic and English first-class; tenant isolation enforced by Postgres row-level security; AI assistant with per-request spend reservation and a credential-refusal path that fails closed. 1,900+ automated tests. | Next.js · Postgres · Cloudflare Workers · Capacitor |
+| **Systemy** (co-founder) | Offline-first, multi-tenant shop-management SaaS for small Egyptian shops. Arabic and English first-class; tenant isolation enforced by Postgres row-level security; AI assistant with per-request spend reservation and a credential-refusal path that fails closed. 1,900+ automated tests. | Next.js · Postgres · Cloudflare Workers · Capacitor |
 | **NAVA** | Bilingual EN/AR luxury-commerce system with full RTL: storefront plus an owner admin suite, SKU-level stock, cash-on-delivery checkout, discount engine and a content module the owners edit without a developer. Money stored as integer piastres. | Next.js · Postgres · Supabase |
 | **Daftara Read** | Installable, offline-capable analytics PWA over the Daftra ERP API. Issues `GET` requests only, by design, so the interface can never mutate client data. | Express · PWA |
 | **[LifeTrack AI](https://hassanahmedshm.github.io/#/lifetrack)** | Offline-first Android health app on SQLDelight, backed by a Cloudflare Worker gateway that proxies managed AI, plus a Next.js owner console for accounts, plans, usage and kill switches. 1,071-test check suite. | Kotlin · Jetpack Compose · Cloudflare Workers |
