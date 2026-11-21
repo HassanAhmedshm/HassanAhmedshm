@@ -5,6 +5,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/hassan-ahmed-shm)
 [![Live work](https://img.shields.io/badge/Live%20work-4g--phone.com-2ea44f?style=flat-square&logo=vercel&logoColor=white)](https://www.4g-phone.com)
+[![Case studies](https://img.shields.io/badge/Case%20studies-181717?style=flat-square&logo=readme&logoColor=white)](https://github.com/HassanAhmedshm/case-studies)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=github&logoColor=white)](https://hassanahmedshm.github.io)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:hassanahmedshm@gmail.com)
 
