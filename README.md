@@ -1,9 +1,10 @@
 <div align="center">
 
 # Hassan Ahmed
-### Full Stack Developer · AI Engineer · Egypt 🇪🇬
+### Full Stack Developer · Next.js · TypeScript · Postgres
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/hassan-ahmed-shm)
+[![Live work](https://img.shields.io/badge/Live%20work-4g--phone.com-2ea44f?style=flat-square&logo=vercel&logoColor=white)](https://www.4g-phone.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=github&logoColor=white)](https://hassanahmedshm.github.io)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:hassanahmedshm@gmail.com)
 
@@ -13,46 +14,74 @@
 
 ## About
 
-I'm a 17-year-old developer from 6th of October City, Egypt. I've been freelancing since 2023 and currently work as a full-stack at [Tarqumi](https://tarqumi.com).
+Full-stack developer in 6th of October City, Egypt. I build and ship whole products — storefronts, admin
+consoles and multi-tenant backends — mostly in Next.js and TypeScript on Postgres, with AI wired in where
+it actually earns its place.
 
-- 🏆 **NASA Space Apps 2024** — Hackathon Finalist (AstroV)
-- 🔬 **ISEF 2025** — Governorate Finalist (Optiscan AI)
-- 🎤 Certified Voice-Over Artist — Maspero Academy
+I care about the parts that are hard to fake: tenant isolation enforced in the database rather than in
+application code, migrations that refuse bad writes, and test suites that run on every build.
+
+- **Live in production:** [4G Phone Store](https://www.4g-phone.com) — storefront and owner admin for an Egyptian phone retailer
+- **NASA Space Apps 2024** — competitor, AstroV
+- **ISEF 2025** — governorate finalist, Optiscan AI
+
 ---
 
-## Projects
+## Selected work
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[4G Phone Store](https://www.4g-phone.com)** | Production storefront for an Egyptian phone retailer. Server-rendered, SEO-ready catalogue; a customer reaches a pre-filled WhatsApp order in three clicks; the owner can re-price the entire catalogue from an inline-editable list in under a minute. | Next.js · Supabase · Vercel |
+| **Systemy** | Offline-first, multi-tenant shop-management SaaS for small Egyptian shops. Arabic and English first-class; tenant isolation enforced by Postgres row-level security; AI assistant with per-request spend reservation and a credential-refusal path that fails closed. 1,900+ automated tests. | Next.js · Postgres · Cloudflare Workers · Capacitor |
+| **NAVA** | Bilingual EN/AR luxury-commerce system with full RTL: storefront plus an owner admin suite, SKU-level stock, cash-on-delivery checkout, discount engine and a content module the owners edit without a developer. Money stored as integer piastres. | Next.js · Postgres · Supabase |
+| **Daftara Read** | Installable, offline-capable analytics PWA over the Daftra ERP API. Issues `GET` requests only, by design, so the interface can never mutate client data. | Express · PWA |
+| **[LifeTrack AI](https://hassanahmedshm.github.io/#/lifetrack)** | Offline-first Android health app on SQLDelight, backed by a Cloudflare Worker gateway that proxies managed AI, plus a Next.js owner console for accounts, plans, usage and kill switches. 1,071-test check suite. | Kotlin · Jetpack Compose · Cloudflare Workers |
+
+### AI & computer vision
 
 | Project | Description | Stack |
-|---------|-------------|-------|
-| [**AG**](https://hassanahmedshm.github.io/#/ag) | Autonomous AI agent — task planning, tool use, long-horizon execution | Python · LLMs · OpenAI API |
-| [**Optiscan AI**](https://hassanahmedshm.github.io/#/optiscan) | Eye disease detection at ~80% accuracy — ISEF Governorate Finalist | Python · TensorFlow · OpenCV |
-| [**AstroV**](https://hassanahmedshm.github.io/#/astrov) | Asteroid impact simulation — NASA Space Apps 2024 Finalist | Three.js · JavaScript |
-| [**LifeTrack AI**](https://hassanahmedshm.github.io/#/lifetrack) | AI-powered lifestyle coaching mobile app | Flutter · Dart · LLMs |
-| [**Tarqumi**](https://tarqumi.com) | Company landing page | Next.js · GSAP · ThreeJS |
+|---|---|---|
+| **[Optiscan AI](https://hassanahmedshm.github.io/#/optiscan)** | Eye-disease detection from phone photos at ~80% accuracy with real-time capture guidance — ISEF governorate finalist | TensorFlow · OpenCV |
+| **[AG](https://hassanahmedshm.github.io/#/ag)** | Agent that drives the mouse and keyboard, searches the web and runs terminal commands to complete multi-step tasks | Python · LLM tool-calling |
+| **AstroV** | Asteroid impact simulation modelling trajectory and impact zones from physics data — NASA Space Apps 2024 | Three.js · JavaScript |
 
 ---
 
 ## Stack
 
-**Frontend**
+**Languages**
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+
+**Frontend & mobile**
 ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Three.js](https://img.shields.io/badge/Three.js-000?style=flat-square&logo=three.js)
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=000)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000?style=flat-square&logo=three.js)
 
-**Backend & Mobile**
+**Backend & data**
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
-**AI & Data**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+**AI/ML & tooling**
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-**Databases & DevOps**
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
+---
+
+## Currently
+
+Open to full-stack and AI-product engineering roles — remote or Egypt-based. Available immediately.
+
+Reach me at **hassanahmedshm@gmail.com**
